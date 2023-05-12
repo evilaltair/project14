@@ -1,0 +1,87 @@
+body {
+    background: #fad5bc;
+    color: #f4f4f4;
+    /*background-image: url(assets/img/fon.jpg);*/
+    /*background-repeat: repeat;*/
+}
+
+header {
+    background-color: #FCC99E;
+    height: 190px;
+    border-radius: 20px;
+}
+
+.cartOne {
+    flex: 1 1 280px;
+    margin: 10px;
+    background: #5be2fa;
+    border: 1px solid rgba(0, 0, 0, 0.5);
+    border-radius: 30px;
+}
+
+.theme-button {
+    color: #fff;
+    background: #81442E;
+}
+
+.theme-button:hover {
+    background: #af654a;
+}
+
+.footer-wrapper {
+    height: 194px;
+    width: 1250px;
+    display: flex;
+    background-color: #FCC99E;
+    border-radius: 30px;
+    flex-flow: row nowrap;
+    align-items: center;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 10px;
+}
+
+h2 {
+    color: #000;
+}
+
+.jms-wrapper {
+    width: auto;
+    min-width: 600px;
+    height: 440px;
+    background-color: #FCC99E;
+    box-shadow: 0 2px 6px rgba(0, 0, 0, .2);
+    -webkit-background-clip: padding;
+    -moz-background-clip: padding;
+    background-clip: padding-box;
+    border: 10px solid #0e0d0d;
+    border: 10px solid #81442E;
+    outline: none;
+    -webkit-transition: background-color 1s linear;
+    -moz-transition: background-color 1s linear;
+    -o-transition: background-color 1s linear;
+    -ms-transition: background-color 1s linear;
+    transition: background-color 1s linear;
+}
+
+.jms-arrows span.jms-arrows-prev {
+    background: #a0593f url(../images/arrow_left.png) no-repeat 50% 50%;
+    left: -10px;
+}
+
+.jms-arrows span.jms-arrows-next {
+    background: #a0593f url(../images/arrow_right.png) no-repeat 50% 50%;
+    right: -10px;
+}
+
+.button {
+    background: #E01F24;
+}
+
+.butfix {
+    background: #81442E;
+}
+
+.butfix a {
+    color: #fff;
+}

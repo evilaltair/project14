@@ -1,0 +1,12 @@
+body {
+    background: #FCC99E;
+}
+
+input[type=submit] {
+    width: 500px;
+    height: 500px;
+}
+
+h1 {
+    text-align: center;
+}

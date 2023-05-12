@@ -1,0 +1,33 @@
+body,html {
+	width: 100%;
+	height: 100%;
+	padding: 0;
+	margin: 0;
+	font-family: arial;
+	font-size: 16px;
+}
+.wrapper {
+	width: 100%;
+}
+.header {
+	background: #ccc;
+}
+.nav_item {
+	display: inline-block;
+	vertical-align: middle;
+	padding:15px 25px;
+	cursor: pointer;
+	text-decoration: none;
+}
+.main_content {
+	width: 50%;
+	margin: 0 auto;
+}
+.theme-button {
+	position: absolute;
+	right: 5px;
+	top: 5px;
+	display: inline-block;
+	padding: 10px 25px;
+	cursor: pointer;
+}
